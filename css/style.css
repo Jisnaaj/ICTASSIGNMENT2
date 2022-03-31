@@ -26,14 +26,15 @@ body{
     font-style: oblique;
     padding-left: 13px;
     padding-top: 20px;
+    color:darkslategray;
 }
 
 .box-model{ border: 3px solid mediumslateblue;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: large;
 font-weight: 800;
-background-color:lightgreen;
-color:green;
+background-color:bisque;
+color:blue;
 padding-left: 30px;
 padding-right: 30px;
 float: left;
