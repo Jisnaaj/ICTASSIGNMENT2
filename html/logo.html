@@ -48,27 +48,22 @@
 
     <!-- body  form part start -->
 
-<div class="col-lg-4">
-    <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1"><b>Email address</b></label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1"><b>Password</b></label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1"><b>Check me out</b></label>
-        </div>
-        <button type="button" class="btn btn-primary btn-lg">Submit</button>
-
-    </form>
-</div>
-
-<!-- body part end-->
-
-</body>
-</html>
+    <div class ="loginbox">
+      <img src="../images/avatar.png" class="avatar">
+      <h1>Log In</h1>
+      <form action="./index.html" form id="forms" >
+        <div id="text">
+          <label for="email" >Email</label><br>
+          <input type="text" placeholder="enter email" id="email" ><br>
+          <label for="password" >Password</label><br>
+          <input type="password" placeholder="enter password" id="pass"><br><br>
+          <label for="error"id="error"></label><br>
+          <button type="submit" id="but">Log In</button><br><br>
+          <p id="pp">need an account?</p>
+          <a href="./sign.html" id="sign">Sign Up</a><br>
+      </form></div>
+  
+  </div>
+  <script src="login.js"></script>
+  </body>
+  </html>

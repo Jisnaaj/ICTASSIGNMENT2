@@ -52,14 +52,63 @@ color: brown;}
     background-size:cover;
     
 }
-.col-lg-12{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:large;
+
+.loginbox{
+    width: 500px;
+    height:600px;
+    background:black;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 110px;
+
+
+}
+.avatar{width: 100px;
+height: 100px;
+border-radius: 50%;
+position:absolute;
+top:-50px;
+left:calc(39%);
+}
+h1{ margin:0px;
+    padding:0px;
+    text-align: center;
+    color:red;
     font-weight: bold;
 }
-.col-lg-4{
-    margin:60px;
-  margin-left:50px;
+.loginbox #text{
+    margin: 0px;
+    font-size:x-large;
+}
+.loginbox #but{
+    width:5cm;
+    margin-left:35px;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+}
+.loginbox #sign{
+    font-size:20px;
+    line-height: 17px;
+    text-decoration: none;
+    color:aqua;
+
+}
+.loginbox a:hover{background:rgb(226, 96, 96);
+    
+                }
+.test#pp{
+    font-size:small;
+padding-left: 10px;
+}
+.loginbox #error1{
+    font-size: medium;
     
 }
 /*end of login html*/
@@ -71,17 +120,76 @@ color: brown;}
 font-size: large;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.form{
-    margin:50px;
-    font-size:large;
-    font-weight:500;
-    color:indigo;
-    
-}
+
 #image{float: right;
 margin: 10px;}
 
+.signupbox{
+    width: 650px;
+    height:1000px;
+    background-color:black;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    color:gold;
+    padding: 10px 10px 10px 10px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.sign #fullname{
+    font-size: x-large;
+    box-shadow: 0 0 5px rgb(246, 8,118,8);
+    border:1px solid rgb(246, 8,118,8);
+}
+.sign #email{
+    font-size: x-large;
+    box-shadow: 0 0 5px rgb(246, 8,118,8);
+    border:1px solid rgb(246, 8,118,8);
+}
+ .sign #phone{
+     font-size: x-large;
+     box-shadow: 0px 0px 5px rgb(246, 8,118,8);
+    border:1px solid rgb(246, 8,118,8);
+ }
+
+ .sign #password{
+    font-size: x-large;
+    box-shadow: 0 0 5px rgb(246, 8,118,8);
+    border:1px solid rgb(246, 8,118,8);
+}
+.sign #password2{
+    font-size: x-large;
+    box-shadow: 0 0 5px rgb(246, 8,118,8);
+    border:1px solid rgb(246, 8,118,8);
+}
+
+.sign #a{
+    font-size:large;
+    color:deeppink;
+    
+}
+.sign #but{
+    font-size: xx-large;
+    width:300px;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+
+}
+
+.sign #lb{
+    font-size:x-large;
+}
+
+
 /*end of sign up html*/
+
+
 
 /*--district html start--*/
 
